@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://springboot-o5qg-101402-5-1325587012.sh.run.tcloudbase.com/$1"
+    }
+  ]
+}
