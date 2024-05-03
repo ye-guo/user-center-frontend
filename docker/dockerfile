@@ -1,7 +1,6 @@
 # 使用 NGINX 官方提供的稳定版作为基础镜像
 FROM nginx:stable
 
-
 # 暴露 NGINX 默认的 HTTP 端口
 EXPOSE 80
 

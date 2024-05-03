@@ -54,7 +54,7 @@ export default defineConfig({
    * @doc 代理介绍 https://umijs.org/docs/guides/proxy
    * @doc 代理配置 https://umijs.org/docs/api/config#proxy
    */
-  proxy: proxy.pre,
+  // proxy: proxy.pre,
   /**
    * @name 快速热更新配置
    * @description 一个不错的热更新组件，更新时可以保留 state

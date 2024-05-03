@@ -148,6 +148,6 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
  * @doc https://umijs.org/docs/max/request#配置
  */
 export const request = {
-  baseURL: process.env.NODE_ENV==='production'?"https://user-center-101402-5-1325587012.sh.run.tcloudbase.com":undefined,
+  baseURL: process.env.NODE_ENV==='production'?"https://user-center-101402-5-1325587012.sh.run.tcloudbase.com":"http://localhost:8080",
   ...errorConfig,
 };
